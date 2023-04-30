@@ -1,8 +1,6 @@
 # Indian Currency Detection using opencv
 
-This code is based on opencv orb feature detection. SURF and SIFT features can also be used to extract the notes features. You can change the value of number of features detected by changing n_features in detect.py. Further brute force matching is used for matching the templates with existing notes.
-
-**Further Details**: ![pdf](https://github.com/shivamkumard107/CurrencyDetectServer/blob/master/assets/ProjectDocumentation.pdf)
+This code is based on opencv orb feature detection.You can change the value of number of features detected by changing n_features in detect.py. Further brute force matching is used for matching the templates with existing notes.
 
 ## Getting Started
 
@@ -18,7 +16,7 @@ Note: Download the __files__ folder on this drive
 ### Installing
 
 1. Clone this repository:
-   `git clone https://github.com/shivamkumard107/CurrencyDetectServer.git`
+   `git clone https://github.com/sachinc-19/Currency-Notifier.git`
 2. Unzip the files folder downloaded from drive then Copy and Paste it in this cloned repository
     The "files" folder and the python file app.py should be in the same directory
 3. Making a virtual environment (Open Terminal):
@@ -46,16 +44,11 @@ Make Request through Postman
     
   3. Send a post request to `localhost:4555/image`
 
-<img src="https://github.com/shivamkumard107/CurrencyDetectServer/blob/master/assets/postman.png" width="700" height="160" />
 
-### Android
-There is an android app made to communicate with the server. Install the app via Android studio or install the apk given in [repository](https://github.com/shivamkumard107/CurrencyDetection) README
 
 ### Improving Accuracy
 
 To get better results increase the number of images of each note type covering different image conditions like background lightning and angle. Concurrently change the dictionary in detect.py or if the dataset is very large you can use a for loop for creating dictionary using glob.
-
-Demo: https://drive.google.com/open?id=1XNjrgGH8JMGXbBmHN6x6_YorIFbFAa2-
 
 
 ## Built With
@@ -65,11 +58,6 @@ Demo: https://drive.google.com/open?id=1XNjrgGH8JMGXbBmHN6x6_YorIFbFAa2-
 
 ## Authors
 
-* **Shivam Kumar** - *Initial work* - [shivamkumard107](https://github.com/shivamkumard107)
-* **Saurabh Pandey** - *Initial work* - [Saurabh528](https://github.com/Saurabh528)
-
-See also the list of [contributors](https://github.com/shivamkumard107/Indian-Currency) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/shivamkumard107/CurrencyDetectServer/blob/master/LICENSE) file for details
+* **Akash Gupta** - *Initial work* - [akash9091](https://github.com/akash9091)
+* **Himanshu Shankhdhar** - *Initial work* - [himanshucse-19](https://github.com/himanshucse-19)
+* **Sachin Chaudhary** - *Initial work* - [sachinc-19](https://github.com/sachinc-19)
